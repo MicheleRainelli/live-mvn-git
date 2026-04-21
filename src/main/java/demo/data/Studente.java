@@ -6,7 +6,7 @@ public class Studente {
     private int matricola;
     private String sesso;
 
-    private int esamiPassati;
+    private int esamiPassati_1;
 
     public Studente(String nome, String cognome, int matricola) {
         this.nome = nome;
@@ -16,11 +16,11 @@ public class Studente {
     }
 
     public int getEsamiPassati() {
-        return esamiPassati;
+        return esamiPassati_1;
     }
 
     public void setEsamiPassati(int esamiPassati) {
-        this.esamiPassati = esamiPassati;
+        this.esamiPassati_1 = esamiPassati;
     }
 
 
