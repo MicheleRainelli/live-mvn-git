@@ -6,7 +6,7 @@ public class Studente {
     private int matricola;
     private String sesso;
 
-    private int esamiPassati;
+    private int esamiPassato;
 
     public Studente(String nome, String cognome, int matricola) {
         this.nome = nome;
